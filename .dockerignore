@@ -1,0 +1,47 @@
+# Git
+.git
+.gitignore
+
+# Documentation
+README.md
+*.md
+
+# CI/CD
+.github
+
+# Development files
+.vscode
+.idea
+*.swp
+*.swo
+
+# Test files
+*_test.go
+coverage.out
+coverage.html
+
+# Build artifacts
+dist/
+*.exe
+data-diff
+data-diff_unix
+
+# Dependencies
+vendor/
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs
+*.log
+
+# Temporary files
+tmp/
+temp/
+
